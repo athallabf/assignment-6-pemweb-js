@@ -17,28 +17,65 @@
 
   <div class="section">
     <h2>Current Activity</h2>
-    <p>List of activities that's on progress</p>
+    <p>List of activities in progress</p>
     <div class="activities">
-      <!-- Activities will be dynamically inserted here -->
+      <div class="activity-card" data-index="0">
+        <h3>Activity 1</h3>
+        <p class="current-time">00:00:00</p>
+        <p class="target-time">Target: 01:00:00</p>
+        <label>Set Target Time (MM:SS:xx)</label>
+        <div class="time-input">
+          <input type="number" class="minutes" placeholder="MM" min="0" />
+          <input type="number" class="seconds" placeholder="SS" min="0" max="59" />
+          <input type="number" class="centiseconds" placeholder="xx" min="0" max="99" />
+          <button class="btn btn-start">Set Target</button>
+        </div>
+        <button class="btn btn-stop">Stop</button>
+        <button class="btn btn-start">Start</button>
+      </div>
+      <div class="activity-card" data-index="1">
+        <h3>Activity 2</h3>
+        <p class="current-time">00:00:00</p>
+        <p class="target-time">Target: 03:00:00</p>
+        <label>Set Target Time (MM:SS:xx)</label>
+        <div class="time-input">
+          <input type="number" class="minutes" placeholder="MM" min="0" />
+          <input type="number" class="seconds" placeholder="SS" min="0" max="59" />
+          <input type="number" class="centiseconds" placeholder="xx" min="0" max="99" />
+          <button class="btn btn-start">Set Target</button>
+        </div>
+        <button class="btn btn-stop">Stop</button>
+        <button class="btn btn-start">Start</button>
+      </div>
+      <div class="activity-card" data-index="2">
+        <h3>Activity 3</h3>
+        <p class="current-time">00:00:00</p>
+        <p class="target-time">Target: 05:00:00</p>
+        <label>Set Target Time (MM:SS:xx)</label>
+        <div class="time-input">
+          <input type="number" class="minutes" placeholder="MM" min="0" />
+          <input type="number" class="seconds" placeholder="SS" min="0" max="59" />
+          <input type="number" class="centiseconds" placeholder="xx" min="0" max="99" />
+          <button class="btn btn-start">Set Target</button>
+        </div>
+        <button class="btn btn-stop">Stop</button>
+        <button class="btn btn-start">Start</button>
+      </div>
     </div>
   </div>
 
   <div class="section">
     <h2>Past Activity</h2>
-    <p>List of activities that have been done</p>
+    <p>List of activities that have been completed</p>
     <table>
-      <thead>
-        <tr>
-          <th>Activity</th>
-          <th>Time</th>
-          <th>Performance</th>
-        </tr>
-      </thead>
-      <tbody>
-        <!-- Past activities will be dynamically inserted here -->
-      </tbody>
+      <tr>
+        <th>Activity</th>
+        <th>Time</th>
+        <th>Performance</th>
+      </tr>
     </table>
   </div>
+
   <script src="script.js"></script>
 </body>
 
