@@ -5,17 +5,3 @@
 | Nama                 |    NRP     |
 | -------------------- | :--------: |
 | Athalla Barka Fadhil | 5027231018 |
-
-## Directory Tree
-
-```
-.
-├── README.md
-├── babel.config.js
-├── jest.config.js
-├── package-lock.json
-├── package.json
-├── src
-│   ├── styles.css
-└── └── index.html
-```
