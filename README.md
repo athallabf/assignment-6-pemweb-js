@@ -1,8 +1,9 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/Y4MavwE4)
-# Assignment 2 - HTML & CSS 
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/hvl9tJkd)
 
-| Nama | NRP |
-| ---- | :-: |
+# Assignment 2 - HTML & CSS
+
+| Nama                 |    NRP     |
+| -------------------- | :--------: |
 | Athalla Barka Fadhil | 5027231018 |
 
 ## Directory Tree
